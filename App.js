@@ -17,21 +17,14 @@ import AppStateExample from './src/Api/AppState'
 import DemensionsExample from './src/Api/Dimensions'
 import KeyboardExample from './src/Api/Keyboard'
 import ShareExample from './src/Api/Share'
+import StackScreen from './src/ReactNavigation/index11'
 import StyleSheetExample from './src/Api/StyleSheet'
 
 const App = () => {
   return (
-    <SafeAreaView style={{flex: 1}}>
-      <StyleSheetExample />
-    </SafeAreaView>
-    // <StatusBarComponent />
-
-    // <ActivityIndicatorComponent />
-    // <ButtonComponent />
-    // <SafeAreaView style={{flex: 1, marginTop: 22}}>
-    // <SafeAreaView>
-    //   <SwitchComponent />
-    // </SafeAreaView>
+    <StackScreen>
+      
+    </StackScreen>
   )
 }
 
